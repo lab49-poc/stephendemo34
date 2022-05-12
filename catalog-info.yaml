@@ -20,8 +20,8 @@ spec:
   owner: "teama"
   providesApis:
     - stephendemo34
-#  consumesApis:
-#    - petstore
+  consumesApis:
+    - willer
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
