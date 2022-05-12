@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: stephendemo34
+  annotations:
+    konghq.com/strip-path: "true"
+    kubernetes.io/ingress.class: kong
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /stephendemo34
+            pathType: Prefix
+            backend:
+              serviceName: stephendemo34
+              servicePort: 8080

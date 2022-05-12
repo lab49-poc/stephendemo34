@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: stephendemo34
+  name: stephendemo34
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stephendemo34
+  template:
+    metadata:
+      labels:
+        app: stephendemo34
+    spec:
+      containers:
+      - image: --image--
+        name: stephendemo34
+        ports:
+          - containerPort: 8080

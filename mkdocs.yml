@@ -1,0 +1,11 @@
+site_name: "stephendemo34"
+site_description: "check path prefix"
+
+repo_url: https://github.com/lab49-poc/stephendemo34
+
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
